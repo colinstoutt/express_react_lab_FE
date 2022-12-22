@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  margin: 5rem 0;
+}
+
+.projects {
+  max-width: 60rem;
+  margin: auto;
+}
+
+.project {
+  text-align: right;
+  width: 40rem;
+  margin: auto;
+  border-radius: 0.3rem;
+  color: white;
+  margin-bottom: 1rem;
+
+  &__img {
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  &__link {
+    background-color: #06aed5;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #06afd577;
+      cursor: pointer;
+    }
+  }
+}
+a {
+  text-decoration: none;
+}

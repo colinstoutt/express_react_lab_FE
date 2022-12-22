@@ -1,0 +1,27 @@
+.about {
+  color: white;
+  max-width: 40rem;
+  margin: auto;
+  text-align: center;
+
+  &__name {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  &__img {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 15rem;
+    border-radius: 0.3rem;
+  }
+  &__desc {
+    margin-bottom: 1rem;
+  }
+  &__linked-in {
+    color: white;
+    &:hover {
+      color: #00a6ff;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.home {
+  text-align: center;
+  // text-transform: uppercase;
+  color: white;
+
+  &__title {
+    font-size: 4rem;
+  }
+  &__sub-title {
+    font-size: 2rem;
+  }
+}
